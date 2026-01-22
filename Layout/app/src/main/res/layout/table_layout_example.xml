@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_height=""
+    layout_width=""
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp"
+    >
+<TableRow>
+    <TextView
+        android:text="Subject"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#CCCCCC" />
+    <TextView
+        android:text="Marks"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#CCCCCC"/>
+         />
+</TableRow>
+    <TableRow>
+        <TextView
+            android:text="Java Programming"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:text="85"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Android Development"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:text="90"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Total Score: 175"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="#E0E0E0"
+            android:layout_span="2"/> </TableRow>
+</TableLayout>
