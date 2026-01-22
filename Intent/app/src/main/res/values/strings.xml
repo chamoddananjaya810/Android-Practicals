@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="setting_btn_txt">Back to home\n</string>
+    <string name="home_btn_txt">Home\n</string>
+    <string name="browse_btn_txt">Browse</string>
+    <string name="dialer_btn_txt">Dialer</string>
+    <string name="share_btn_txt">share</string>
+</resources>

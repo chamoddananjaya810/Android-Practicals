@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent Filter</string>
+    <string name="profile_btn_txt">Open Profile\n</string>
+    <string name="Browser_btn_text">"Browser "</string>
+</resources>

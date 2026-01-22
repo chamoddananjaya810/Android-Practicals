@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="setting_btn_txt">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting_fragment_txt">This is Setting Fragment</string>
+</resources>
