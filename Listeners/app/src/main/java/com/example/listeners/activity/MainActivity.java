@@ -3,6 +3,7 @@ package com.example.listeners.activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.ContextMenu;
+import android.view.DragEvent;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -87,19 +88,27 @@ public class MainActivity extends AppCompatActivity {
 
 
         View view=findViewById(R.id.view);
-        view.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction()==MotionEvent.ACTION_DOWN){
+//        view.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View view, MotionEvent motionEvent) {
+//                if (motionEvent.getAction()==MotionEvent.ACTION_DOWN){
+//
+//                    Toast.makeText(MainActivity.this, "Touched", Toast.LENGTH_LONG).show();
+//                }
+//                return true;
+//            }
+//        });
+//
+//
+//registerForContextMenu(view);
 
-                    Toast.makeText(MainActivity.this, "Touched", Toast.LENGTH_LONG).show();
-                }
+        view.setOnDragListener(new View.OnDragListener() {
+            @Override
+            public boolean onDrag(View view, DragEvent dragEvent) {
+                Toast.makeText(MainActivity.this, "Dropped", Toast.LENGTH_LONG).show();
                 return true;
             }
         });
-
-
-registerForContextMenu(view);
     }
 
     @Override
