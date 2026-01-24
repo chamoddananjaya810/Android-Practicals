@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="home_btn_text">Move To Login</string>
+    <string name="Test_Btn">Move To Test</string>
+</resources>
