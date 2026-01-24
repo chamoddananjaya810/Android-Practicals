@@ -2,4 +2,5 @@
     <string name="app_name">Activity</string>
     <string name="home_btn_text">Move To Login</string>
     <string name="Test_Btn">Move To Test</string>
+    <string name="count_btn_txt">count :</string>
 </resources>
