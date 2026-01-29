@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Pactical_4</string>
+
+    <string name="app_title_text">Chat App\n</string>
+    <string name="app_title_text01">Chat App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email_text_hint">Email</string>
+    <string name="password_text_hint">Password</string>
+    <string name="email_txt">Email\n</string>
+>>>>>>> Stashed changes
 </resources>

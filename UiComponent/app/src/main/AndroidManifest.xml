@@ -10,21 +10,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Pactical_4">
-
+        android:theme="@style/Theme.UiComponents">
         <activity
-            android:name=".activity.HomeActiviry"
-            android:exported="false" />
-
-        <activity
-            android:name=".activity.HomeActiviry"
+            android:name=".activity.RecycleViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.ListViewActivity"
+            android:exported="true">
 
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

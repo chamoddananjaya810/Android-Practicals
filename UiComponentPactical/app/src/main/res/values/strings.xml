@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ui Component Pactical</string>
+    <string name="user_btn_txt">User\n</string>
+    <string name="user_btn">View</string>
+</resources>
