@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewPac</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="menu_name_input">menu_name\n</string>
+    <string name="menu_price_input">menu price</string>
+    <string name="add_menu_txt">Add Menu</string>
+</resources>
