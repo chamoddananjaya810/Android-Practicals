@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DataStorage</string>
+    <string name="openFilePicker">Open File Picker</string>
+    <string name="InsertBtn">INSERT</string>
+    <string name="UpdateBtn">UPDATE\n</string>
+    <string name="DeleteBtn">DELETE</string>
+    <string name="SearchBtn">SEARCH\n</string>
 </resources>
